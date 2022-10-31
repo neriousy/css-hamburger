@@ -1,0 +1,115 @@
+.body{
+    margin:0 auto;
+    padding: 0;
+}
+
+
+.flex-container{
+    height: auto;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    background-color: #f00;
+    color:#fff;
+    width:auto;
+    padding:5px;
+    font-size: 2em;
+}
+
+.top-bun{
+    width:600px;
+    height:75px;
+    background-color:  #DEB887;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}   
+
+.top-bun-shadow{
+    width:600px;
+    height:25px;
+    background-color: #D3A15F;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.cheese-slice{
+    width: 750px;
+    height:20px;
+    background-color: #FFD700;
+    border-bottom: 4px #DAA520 solid;
+}
+
+.tomato{
+    width:500px;
+    height: 40px;
+    background-color: #f00;
+}
+
+.beef-patty{
+    width:500px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #CC6633;
+    border-bottom: 4px solid #993300;
+}
+
+.onion{
+    width:400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #800080;
+    padding:2px;
+}
+
+.onion-circle{
+    height:100%;
+    width:40px;
+    border-radius: 40px;
+    background-color: #DDA0DD; 
+}
+
+.meatball-container{
+    width:350px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.meatball{
+    width:100px;
+    height:100%;
+    background-color: #A52A2A;
+    border-radius: 100px;
+}
+
+.cucumber{
+    height:30px;
+    width:350px;
+    background-color:#90EE90;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 20px #008000 solid;
+}
+
+.inverse{
+    transform: rotate(180deg);
+}
+
+.plate{
+    width:1000px;
+    height: 0px;
+    background-color: #C0C0C0;
+    border-top:10px solid #A2A2A2;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
